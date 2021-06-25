@@ -1,0 +1,21 @@
+def main():
+    print("BANCA MEJORADA")
+
+    objetivo = float(input("¿Cuántos euros quiere ahorrar?: "))
+    while objetivo < 0:
+        print("Por favor, escriba una cantidad positiva.")
+        objetivo = float(input("¿Cuántos euros quiere ahorrar?: "))
+
+    ahorrado = 0.0
+    while objetivo > ahorrado:
+        ahorro = float(input("¿Cuántos euros quiere meter en la BANCA?: "))
+        while ahorro < 0:
+            print("Por favor, escriba una cantidad positiva.")
+            ahorro = float(input("¿Cuántos euros quiere meter en la BANCA?: "))
+        ahorrado += ahorro
+
+    print(f"¡Objetivo conseguido! Ha ahorrado usted {ahorrado} euros.")
+
+
+if __name__ == "__main__":
+  main()
