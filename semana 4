@@ -1,0 +1,191 @@
+#x = int(input("ingrese un numero entero:"))
+#if x<0:
+ #   x=0
+  #  print('negativo cambiado a cero')
+   # elif x==0
+    #print('cero')
+    #elif x==1:
+     #   print('uno')
+    #else:
+     #   print('ninguna opcion')
+
+#print("ok") if type(x) == int else print("-")
+
+
+
+
+ #WHILE
+# c=1
+# while True:
+  #  print(c)
+#vocal = input("ingrese vocal:")
+#while vocal not in ('a','e,'i','o',u')
+#if vocal =='.':
+ #   break
+#vocal=input("vocal:")
+#print('su vocal o punto es:{}'. format(vocal))
+
+#FOR
+#for car in frase:
+ #   if car in ("a","e","i","o","u","A","E","I","O","U"):
+  #   if car in ["A","E","I","O","U"]:
+   # continue
+    #else:
+     #   cvo<=cvoc+1
+    #print('cantidad vocales:{}'.format(cvoc))
+
+#DEF
+#def vocal (frase):
+ #   for car in frase:
+  #      if car in ("a","e","i","o","u"):
+   #         print(car)
+
+#oracion= input("ingrese oracion:")
+#vocales(oracion.lower{})
+#def promedio(nota):
+ #   summ =0
+  #  for n in notas:
+   #     summ +=n
+    #    return summ / len(notas)
+#listanotas=[2,4,6,8,10]
+#prom=promedio(listanotas)
+#print ('promedio:{}={}'. format(listanotas.prom))
+
+#condiciones
+#class condicion:
+ #   contador=0
+  #  def __init__(self,num1=0,num2=0):
+   #     self.numero1=num1
+    #     self.numero2=num2
+     #   numero = num1+numero2
+      #  self.numero3 =numero
+
+
+    #def usoIF(self):
+     #   if self.numero1 == self.numero2:
+      #      print ("numero1:{},numero2:son iguales ".format(self.numero1,self.numero2))
+        #else:
+         #    print("no son iguales")
+
+    #cond1 = condicion()
+    #print(condi1.numero1)
+#     print(condi1.numero2)
+
+
+ #   condi2 = condicion(30)
+  #   print(condi2.numero1)
+   #  print(condi2.numero2)
+
+#class for:
+   # def _int_(self):
+    #    pass
+
+    #def usofor(self):
+    #    datos1=("daniel",50,True)
+     #   numero1={2,5,6,4,1}
+      #  docente ={'nombre':'daniel','edad': 50,'fac':'fac1'}
+       # listanotas=[(30,40),(20,40),(50,40)]
+        #listaalumnos =[{"nombre","eric","final",70},{"nombre","yady","final",60}{"nombre","danny","final",80}]
+ 
+   # for i in range(5):
+    #
+    # 
+    #    print ("i={}".format(i))
+
+
+    #longitud = len(datos)
+    #print(datos[0])
+     # print(datos[1])
+      #  print(datos[2])
+       # j=0
+        #while j< longitud:
+         #   print("while,datos[j]")
+          #  j+j+i
+        #for i in range (longitud):
+         #   print("for[i]")
+
+#for dato in ['h','o','i','a','que','tal']:
+
+   # print(dato)
+
+
+    #for i in range(longitud):
+     #   print(datos(i))
+
+#frase ='hola como esta'
+#vocales =[]
+#for car in frase:
+ #   if car in ("a","e","i","o","u"):
+  #      vocales.append(car)
+   #     print(vocales)
+#from cargo importcargo
+
+#class empleado:
+ #   secuencia=0
+  #  def __init__(self,none,cod,sue,cargo):
+
+   #     self.codigo=empleado.secuenciase
+    #    self.nombre=none
+     #   self.cedula=cod
+      #  self.sueldo=sue
+       # self.cargo=cargo
+    #def mostrar(self):
+     #   print("codigo:{}nombre{} crago{} +{}".format(self.cod,self.nombre,self.cargo.codigo,self.cargo.descri)
+      #  def generacodigo(self)
+       # empleado.secuencia=empleado.secuencia1
+        #return
+
+
+    #a = int(raw_input('Escribe el primer numero: '))
+	#	b = int(raw_input('Escribe el segundo numero: '))
+	#	c = int(raw_input('Escribe el tercer numero: '))
+	#	d = int(raw_input('Escribe el cuarto numero: '))
+	#	e = int(raw_input('Escribe el quinto numero: '))
+	#	if a == 0:
+	#		break
+	#	if a > b and a > c and a > d and a > e:
+	#		maximo = a
+	#	else:
+	#		if b > a and b > c and b > d and b > e:
+	#			maximo = b
+	#		else:
+	#			if c > a and c > b and c > d and c > e:
+	#				maximo = c
+	#			else:
+	#				if d > a and d > b and d > c and d > e:
+	#					maximo = d
+	#				else:
+	#					maximo = e
+	#	print u'El máximo es: {0}'.format(maximo)
+
+     #if opcion == 1:
+      #  print "Suma"
+       # x = input("Primer numero: ")
+       # y = input ("Segundo numero: ")
+        #suma = int(x + y)
+        #print x, "+", y, "=", suma
+ 
+#    elif opcion == 2:
+ #       print "Resta"
+  #      x = input("Primer numero: ")
+   #     y = input("Segundo numero: ")
+    #    res = int(x - y)
+     #   print x, "-", y, "=", res
+ 
+#    elif opcion == 3:
+ #       print "Multiplicacion"
+  #      x = input("Primer numero: ")
+   #     y = input("Segundo numero: ")
+    #    mul = int(x * y)
+     #   print x, "*", y, "=", mul
+      #  break
+ 
+    #elif opcion == 4:
+     #   print "Division"
+      #  x = input("Primer numero: ")
+       # y = input("Segundo numero: ")
+        #div = int(x / y)
+        #print x, "/", y, "=", div
+ 
+#else:
+        #print "No es opcion Valida"
